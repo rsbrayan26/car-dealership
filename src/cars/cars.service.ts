@@ -70,30 +70,14 @@ export class CarsService {
   }
 
   private cars: Car[] = [
-    {
-      id: uuid(),
-      brand: "Toyota",
-      models: ["Camry", "Corolla", "Rav4", "Prius", "Highlander"],
-    },
-    {
-      id: uuid(),
-      brand: "Ford",
-      models: ["F-150", "Mustang", "Escape", "Explorer", "Focus"],
-    },
-    {
-      id: uuid(),
-      brand: "Chevrolet",
-      models: ["Silverado", "Equinox", "Malibu", "Camaro", "Traverse"],
-    },
-    {
-      id: uuid(),
-      brand: "Honda",
-      models: ["Civic", "Accord", "CR-V", "Pilot", "Odyssey"],
-    },
-    {
-      id: uuid(),
-      brand: "Volkswagen (VW)",
-      models: ["Golf", "Jetta", "Passat", "Tiguan", "Atlas"],
-    },
+    // {
+    //   id: uuid(),
+    //   brand: "Toyota",
+    //   models: ["Camry", "Corolla", "Rav4", "Prius", "Highlander"],
+    // },
   ];
+
+  fillCarsWithSeedData(cars: Car[]) {
+    this.cars = cars;
+  }
 }
