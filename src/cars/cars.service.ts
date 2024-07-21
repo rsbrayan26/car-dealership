@@ -95,26 +95,5 @@ export class CarsService {
       brand: "Volkswagen (VW)",
       models: ["Golf", "Jetta", "Passat", "Tiguan", "Atlas"],
     },
-    {
-      id: uuid(),
-      brand: "BMW",
-      models: ["3 Series", "5 Series", "X3", "X5", "7 Series"],
-    },
-    {
-      id: uuid(),
-      brand: "Mercedes-Benz",
-      models: ["C-Class", "E-Class", "GLC", "GLE", "S-Class"],
-    },
-    { id: uuid(), brand: "Audi", models: ["A4", "A6", "Q5", "Q7", "TT"] },
-    {
-      id: uuid(),
-      brand: "Nissan",
-      models: ["Altima", "Sentra", "Rogue", "Pathfinder", "Titan"],
-    },
-    {
-      id: uuid(),
-      brand: "Hyundai",
-      models: ["Elantra", "Sonata", "Santa Fe", "Tucson", "Kona"],
-    },
   ];
 }
